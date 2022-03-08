@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="p-6 flex justify-between items-center">
+        <!-- logo -->
+        <div class="logo">
+            <a href="#" class="font-serif font-normal text-2xl">Martina Vellani</a>
+        </div>
+
+        <!-- hamburguer -->
+        <span class="open -order-1" id="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none"
+                stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">&lt;!--! Atomicons
+                Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021
+                Atomicons --&gt;<line x1="21" x2="3" y1="18" y2="18"></line>
+                <line x1="21" x2="3" y1="12" y2="12"></line>
+                <line x1="21" x2="3" y1="6" y2="6"></line>
+            </svg>
+        </span>
+
+        <!-- close -->
+        <div class="absolute z-10 top-7 left-6 -translate-y-[100rem] transition duration-700" id="close">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none"
+                stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">&lt;!--! Atomicons
+                Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021
+                Atomicons --&gt;<circle cx="12" cy="12" r="10"></circle>
+                <polyline points="14 8 9 12 14 16"></polyline>
+            </svg>
+        </div>
+
+        <!-- navbar -->
+        <div class="navbar -translate-y-[100rem] absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center bg-white transition duration-700"
+            id="navlist">
+            <ul class="font-serif flex-col justify-between items-center text-5xl">
+                <li class="mb-5"><a href="#/portfolio">Portfolio</a></li>
+                <li class="mb-5"><a href="#/shopping">Shopping</a></li>
+                <li class="mb-5"><a href="#/biography">Biography</a></li>
+                <li class="mb-5"><a href="#/contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- cart -->
+        <a href="#/cart" class="cart flex items-center justify-center">
+            <p class="mr-2 flex "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round">&lt;!--! Atomicons Free 1.00 by @atisalab License -
+                    https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<path
+                        d="M2,3H4.23a1,1,0,0,1,1,.74l2.7,10A3,3,0,0,0,10.8,16h5A3,3,0,0,0,18.68,14l1.88-5.63A1,1,0,0,0,19.61,7H6.1"
+                        stroke-linecap="round"></path>
+                    <line x1="9.99" y1="20" x2="10.01" y2="20" stroke-linecap="round" stroke-width="2.5"></line>
+                    <line x1="15.99" y1="20" x2="16.01" y2="20" stroke-linecap="round" stroke-width="2.5"></line>
+                </svg></p>
+            <p id="contador-cart">0</p>
+        </a>
+    </nav>
+
+    <!-- content -->
+    <main id="root">
+    </main>
+
+    <!-- footer -->
+    <footer class="p-6 flex justify-center items-center text-xs font-mono font-light">
+        2022 &copy; All rights reserved.
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

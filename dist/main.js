@@ -1,0 +1,1 @@
+(()=>{"use strict";window.addEventListener("hashchange",(()=>{(o=>{switch(window.location.hash){case"#/":return console.log("portfolio!");case"#shopping":return console.log("shop!");case"#biography":return console.log("bio!");case"#contact":return console.log("contact!");default:console.log("err404")}})()}))})();
